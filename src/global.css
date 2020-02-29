@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100%;
+}
+
+body {
+     background-color:white;
+     -webkit-font-smoothig: antialiased;
+}
+
+body, input, button {
+    font-family: Roboto, sans-serif;
+}
+
+button {
+    background: linear-gradient(to right, #EB3349 0%, #F45C43 51%, #EB3349 100%);
+    height: 35px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+
+button:hover {
+    background: #d86969;
+    cursor: pointer;
+}
+
+.App {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}

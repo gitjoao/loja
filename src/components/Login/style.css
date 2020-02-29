@@ -1,0 +1,45 @@
+
+#login {
+    width: 100%;
+    padding: 50px;
+}
+
+#login form {
+    width: 30%;
+}
+
+
+.input-block label {
+        color: #acacac;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+.input-block input {
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+    color: #666;
+    border: 0;
+    border-bottom: 1px solid #666;
+}
+
+#login .cadastrar {
+    padding-top: 15px;
+}
+
+#login form .input-block {
+ margin-bottom: 10px;
+}
+
+#login main {
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    #login form {
+    width: 100%;
+    }   
+
+}
